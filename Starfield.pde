@@ -21,9 +21,6 @@ void draw()
 		swarm[i].move();
 		swarm[i].show();
 	}
-	if (x>=500 || x <=0||y>=500 || y<=0) {
-		new NormalParticle();
-	}
 }
 
 class NormalParticle implements Particle
